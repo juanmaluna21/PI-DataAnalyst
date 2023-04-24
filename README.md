@@ -22,7 +22,14 @@ In order to meet the customer's demand, we conducted a deep analysis of the data
 
 Several analyses were carried out on each one, focusing on 5 of them.
 
-+ 
+
++ We found out the internet access per 100 households is increasing over the years. This is very positive for the goal of 2% set by the client.
+
+
+
++ Over the years, the download speed has been strongly increasing.
+
++ There is a great difference in download speed between states where Capital Federal has the fastest one with 101mb and Chubut, the slowest with 11mb
 
 
 
