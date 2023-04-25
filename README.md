@@ -9,7 +9,7 @@ Welcome to this project! On this occasion I am taking the roll of a Data Analyst
 ### `Context`
 
 <p align='center'>
-<img src = 'https://newses.cgtn.com/n/BfJIA-CAA-HAA/BceGDAA.jpg' height = 200>
+<img src = 'https://github.com/juanmaluna21/PI-DataAnalyst/blob/main/src/telecommunications_upsell_2-column-card_image_350pxhigh-jpg.jpg' height = 250>
 <p>
 
 Telecommunications involve transmitting information through electronic means, such as telephony, TV, radio, and the internet, allowing communication over long distances. The internet is a global network of interconnected computers enabling real-time exchange of information, transforming how we work, learn, and entertain ourselves. The telecom industry plays a vital role in facilitating international information and enabling continuous communication, even during a pandemic. Argentina has [62.12 million](https://www.datosmundial.com/america/argentina/telecomunicacion.php) connections in 2020, placing it at the forefront of telecom development compared to the world average."
@@ -30,7 +30,7 @@ In order to meet the customer's demand, we conducted a deep analysis of the data
 [dea_main.ipynb](https://github.com/juanmaluna21/PI-DataAnalyst/blob/main/dea_main.ipynb)
 
 <p align='left'>
-<img src = 'https://github.com/juanmaluna21/PI-DataAnalyst/blob/main/src/files_used.png' height = 200>
+<img src = 'https://github.com/juanmaluna21/PI-DataAnalyst/blob/main/src/files_used.png' height = 400>
 <p>
 
 A deep analysis was carried out with a total of 18 satasets that can be found in the folder [Datasets_import](https://github.com/juanmaluna21/PI-DataAnalyst/tree/main/Datasets_import), focusing in 8 that can be found at this link [Datasets_export](https://github.com/juanmaluna21/PI-DataAnalyst/tree/main/Datasets_export).
