@@ -8,6 +8,10 @@ Welcome to this project! On this occasion I am taking the roll of a Data Analyst
 
 ### `Context`
 
+Telecommunications involve transmitting information through electronic means, such as telephony, TV, radio, and the internet, allowing communication over long distances. The internet is a global network of interconnected computers enabling real-time exchange of information, transforming how we work, learn, and entertain ourselves. The telecom industry plays a vital role in facilitating international information and enabling continuous communication, even during a pandemic. Argentina has [62.12 million](https://www.datosmundial.com/america/argentina/telecomunicacion.php) connections in 2020, placing it at the forefront of telecom development compared to the world average."
+
+### `The role`
+
 We took the role of Data Analyst where one of our clients belongs to the telecommunications industry.
 
 This Argentinian company asked us to carry out a complete study of the sector's behavior, in order to guide them to provide good quality services, identify growth opportunities, and be able to propose customized solutions to their potential clients.
@@ -17,11 +21,21 @@ The objective is to increase internet service access by 2% for the next quarter,
 In order to meet the customer's demand, we conducted a deep analysis of the datasets available on this [link](https://datosabiertos.enacom.gob.ar/home).
 
 
+<p align='center'>
+<img src = 'https://newses.cgtn.com/n/BfJIA-CAA-HAA/BceGDAA.jpg' height = 200>
+<p>
+
+
+
 ### `Data Exploratory Analysis (DEA)`
 
 [dea_main.ipynb](https://github.com/juanmaluna21/PI-DataAnalyst/blob/main/dea_main.ipynb)
 
-Several analyses were carried out on each dataset, focusing on 8 of them.
+A deep analysis was carried out with a total of 18 satasets that can be found in the folder [Datasets_import](https://github.com/juanmaluna21/PI-DataAnalyst/tree/main/Datasets_import), focusing in 8 that can be found at this link [Datasets_export](https://github.com/juanmaluna21/PI-DataAnalyst/tree/main/Datasets_export).
+The analysis was made with **Pandas** and **Numpy** libraries
+
+
+Cleaning and organizing information was key in order to create a report and summarize it. In order to see tendance and find some connections between variables some graphics and plots were designed with **matplotlib** and **seaborn** libraries.
 
 ***Incomes***
 
@@ -71,6 +85,14 @@ Analyzing by states, it can be seen that in Buenos Aires, specially in Capital F
 [Presentation](https://github.com/juanmaluna21/PI-DataAnalyst/blob/main/Presentation.pbix)
 
 In order to communicate the results to our client, we chose to do it through the Power BI program, to show trends and behaviors of the variables.
+
+The presentation is divided in three parts:
+
+1) Presentation of the project
+
+2) Page 1: Main KPI: What we can do to meet the company's objective
+
+3) Page 2: Additional KPIs
 
 
 ### `Recommendations`
