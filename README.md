@@ -8,10 +8,14 @@ Welcome to this project! On this occasion I am taking the roll of a Data Analyst
 
 ### `Context`
 
+<p align='center'>
+<img src = 'https://newses.cgtn.com/n/BfJIA-CAA-HAA/BceGDAA.jpg' height = 200>
+<p>
+
 Telecommunications involve transmitting information through electronic means, such as telephony, TV, radio, and the internet, allowing communication over long distances. The internet is a global network of interconnected computers enabling real-time exchange of information, transforming how we work, learn, and entertain ourselves. The telecom industry plays a vital role in facilitating international information and enabling continuous communication, even during a pandemic. Argentina has [62.12 million](https://www.datosmundial.com/america/argentina/telecomunicacion.php) connections in 2020, placing it at the forefront of telecom development compared to the world average."
 
 ### `The role`
-
+ 
 We took the role of Data Analyst where one of our clients belongs to the telecommunications industry.
 
 This Argentinian company asked us to carry out a complete study of the sector's behavior, in order to guide them to provide good quality services, identify growth opportunities, and be able to propose customized solutions to their potential clients.
@@ -21,23 +25,23 @@ The objective is to increase internet service access by 2% for the next quarter,
 In order to meet the customer's demand, we conducted a deep analysis of the datasets available on this [link](https://datosabiertos.enacom.gob.ar/home).
 
 
-<p align='center'>
-<img src = 'https://newses.cgtn.com/n/BfJIA-CAA-HAA/BceGDAA.jpg' height = 200>
-<p>
-
-
-
 ### `Data Exploratory Analysis (DEA)`
 
 [dea_main.ipynb](https://github.com/juanmaluna21/PI-DataAnalyst/blob/main/dea_main.ipynb)
 
+<p align='left'>
+<img src = 'https://github.com/juanmaluna21/PI-DataAnalyst/blob/main/src/files_used.png' height = 200>
+<p>
+
 A deep analysis was carried out with a total of 18 satasets that can be found in the folder [Datasets_import](https://github.com/juanmaluna21/PI-DataAnalyst/tree/main/Datasets_import), focusing in 8 that can be found at this link [Datasets_export](https://github.com/juanmaluna21/PI-DataAnalyst/tree/main/Datasets_export).
-The analysis was made with **Pandas** and **Numpy** libraries
+The analysis was made with **Pandas** and **Numpy** libraries.
+
+Cleaning and organizing information was key in order to create a report and summarize it. In order to see tendance, find some connections between variables and outliers, some graphics and plots were designed with **matplotlib** and **seaborn** libraries.
+
+A group of ouliers was found in **internet_penetration_perstate** dataset were some values showed that there was more connection per home than homes indeed (one of them showed 121%), and just to make the analysis more understandable and clean, I decided to take them off.
 
 
-Cleaning and organizing information was key in order to create a report and summarize it. In order to see tendance and find some connections between variables some graphics and plots were designed with **matplotlib** and **seaborn** libraries.
-
-***Incomes***
+***Access per 100 households***
 
 We found out the internet access per 100 households is increasing over the years. This is very positive for the goal of 2%, set by the client.
 
@@ -99,12 +103,14 @@ The presentation is divided in three parts:
 
 Based on the above, we can see that the objective of increasing connectivity access by 2% per state is possible. This market sector growing, so the company could take advantage of it.
 
-The possible investments in infrastructure expansion can lead to increased revenue for companies providing such services.
+Strong marketing campaign in states with few access to internet such as: Jujuy, Santa Cruz, Tierra del Fuego, etc. ir order to get more clients.
+
+Investments in infrastructure expansion will lead to improve the quality of them for existant clients.
 
 In case the company decide to pursue this objective, it is recommended to do it through the fiber optic service, as it provides better service benefits at a lower cost. This can generate sustained growth in customers, leading to increased revenue.
 
-The state with the highest internet access is Buenos Aires, specifically in Capital Federal, and also has the highest download speed. Hence, it can be said that the market with the easiest access is Capital Federal since it already has an infrastructure for providing internet service to many clients. However, at the same time, customer satisfaction is high, so entering this market may not generate many changes, making it more difficult to achieve the objective of increasing connectivity access by 2%.
+The state with the highest internet access is Buenos Aires, specifically in Capital Federal, and also has the highest download speed. Hence, it can be said that the market with the easiest access is Capital Federal since it already has an infrastructure for providing internet service to many clients. However, at the same time, entering this market may not generate many changes, making it more difficult to achieve the objective of increasing connectivity access by 2%.
 
-On the other hand, if the strategy is to first enter the provinces with lower quality services, it may be easier to achieve this objective.
+On the other hand, if the strategy is to first enter the states with lower quality services, it may be easier to achieve this objective.
 
 Appart of this analysis, I would like to indicate that there are other factors to be consider if an investment needs to be done in this sector, such as the economic situation of the country, costs of infrastructure, etc.
