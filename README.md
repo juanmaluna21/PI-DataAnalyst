@@ -113,4 +113,6 @@ The state with the highest internet access is Buenos Aires, specifically in Capi
 
 On the other hand, if the strategy is to first enter the states with lower quality services, it may be easier to achieve this objective.
 
+Try to lower 
+
 Appart of this analysis, I would like to indicate that there are other factors to be consider if an investment needs to be done in this sector, such as the economic situation of the country, costs of infrastructure, etc.
