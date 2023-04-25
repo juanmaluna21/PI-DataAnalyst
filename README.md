@@ -36,9 +36,9 @@ In order to meet the customer's demand, we conducted a deep analysis of the data
 A deep analysis was carried out with a total of 18 satasets that can be found in the folder [Datasets_import](https://github.com/juanmaluna21/PI-DataAnalyst/tree/main/Datasets_import), focusing in 8 that can be found at this link [Datasets_export](https://github.com/juanmaluna21/PI-DataAnalyst/tree/main/Datasets_export).
 The analysis was made with **Pandas** and **Numpy** libraries.
 
-Cleaning and organizing information was key in order to create a report and summarize it. In order to see tendance, find some connections between variables and outliers, some graphics and plots were designed with **matplotlib** and **seaborn** libraries.
+Cleaning and organizing information was key in order to create a report and summarize it. In order to see tendency, find some connections between variables and outliers, some graphics and plots were designed with **matplotlib** and **seaborn** libraries.
 
-A group of ouliers was found in **internet_penetration_perstate** dataset were some values showed that there was more connection per home than homes indeed (one of them showed 121%), and just to make the analysis more understandable and clean, I decided to take them off.
+A group of ouliers was found in **internet_penetration_perstate** dataset were some values showed that there was more connection per home than homes indeed (one of them showed 122.8%), and just to make the analysis more understandable and clean, I decided to take them off.
 
 
 ***Access per 100 households***
@@ -81,7 +81,7 @@ Analyzing by states, it can be seen that in Buenos Aires, specially in Capital F
 
 + Average incomes per state: Average incomes per state rise up to 30 millions. If well it is not an accurate measure, it gives us a first idea of how much states apport to the incomes.
 
-+ Average download speed in Argentina: This is a good measure to compare with other countries in order to compare service quality.
++ Average download speed in Argentina: This is a good measure to compare our service quality with other countries.
 
 
 ### `Presentation`
